@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import HelloWorld from './components/HelloWorld'
+import Greeting from './components/Greeting'
 
 function App() {
     return (
-        <HelloWorld/>
+        <Greeting/>
     )
 }
 
