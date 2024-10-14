@@ -4,7 +4,7 @@ import HelloWorld from './HelloWorld';
 function Greeting() {
     return (
         <section>
-            <HelloWorld />
+            <HelloWorld/>
         </section>
     );
 }
