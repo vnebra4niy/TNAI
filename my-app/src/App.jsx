@@ -4,13 +4,8 @@ import World from './components/World'
 import Hello from './components/Hello'
 
 function App() {
-    return (
-        <div className='app'>
-            <Hello/>
-            <World/>
-            <h1>:-) Hello World</h1>
-        </div>
-    )
+    const enable=false
+    return <>{enable ? <World /> : <Hello />}</>
 }
 
 export default App
