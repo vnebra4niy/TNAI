@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import World from './components/World'
-import Hello from './components/Hello'
+import HelloWorld from './components/HelloWorld'
 
 function App() {
-    const enable=false
-    return <>{enable ? <World /> : <Hello />}</>
+    return (
+        <HelloWorld/>
+    )
 }
 
 export default App
